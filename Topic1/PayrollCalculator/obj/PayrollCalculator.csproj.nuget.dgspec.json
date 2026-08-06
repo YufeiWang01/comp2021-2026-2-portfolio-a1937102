@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a1937102\\OneDrive - Adelaide University\\Desktop\\COMP2021 Portfolio\\comp2021-2026-2-portfolio-a1937102\\Topic1\\IntroTopic\\IntroTopic.csproj": {}
+    "C:\\Users\\a1937102\\OneDrive - Adelaide University\\Desktop\\COMP2021 Portfolio\\comp2021-2026-2-portfolio-a1937102\\Topic1\\PayrollCalculator\\PayrollCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a1937102\\OneDrive - Adelaide University\\Desktop\\COMP2021 Portfolio\\comp2021-2026-2-portfolio-a1937102\\Topic1\\IntroTopic\\IntroTopic.csproj": {
+    "C:\\Users\\a1937102\\OneDrive - Adelaide University\\Desktop\\COMP2021 Portfolio\\comp2021-2026-2-portfolio-a1937102\\Topic1\\PayrollCalculator\\PayrollCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a1937102\\OneDrive - Adelaide University\\Desktop\\COMP2021 Portfolio\\comp2021-2026-2-portfolio-a1937102\\Topic1\\IntroTopic\\IntroTopic.csproj",
-        "projectName": "IntroTopic",
-        "projectPath": "C:\\Users\\a1937102\\OneDrive - Adelaide University\\Desktop\\COMP2021 Portfolio\\comp2021-2026-2-portfolio-a1937102\\Topic1\\IntroTopic\\IntroTopic.csproj",
+        "projectUniqueName": "C:\\Users\\a1937102\\OneDrive - Adelaide University\\Desktop\\COMP2021 Portfolio\\comp2021-2026-2-portfolio-a1937102\\Topic1\\PayrollCalculator\\PayrollCalculator.csproj",
+        "projectName": "PayrollCalculator",
+        "projectPath": "C:\\Users\\a1937102\\OneDrive - Adelaide University\\Desktop\\COMP2021 Portfolio\\comp2021-2026-2-portfolio-a1937102\\Topic1\\PayrollCalculator\\PayrollCalculator.csproj",
         "packagesPath": "C:\\Users\\a1937102\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a1937102\\OneDrive - Adelaide University\\Desktop\\COMP2021 Portfolio\\comp2021-2026-2-portfolio-a1937102\\Topic1\\IntroTopic\\obj\\",
+        "outputPath": "C:\\Users\\a1937102\\OneDrive - Adelaide University\\Desktop\\COMP2021 Portfolio\\comp2021-2026-2-portfolio-a1937102\\Topic1\\PayrollCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
