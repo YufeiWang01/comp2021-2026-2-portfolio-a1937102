@@ -27,6 +27,15 @@ class Program
         double rate = double.Parse(Console.ReadLine()??"");
         double netPay = CalculatePay(hours, rate);
         Console.WriteLine($"{name} earned ${netPay:F2} after tax.");
+
+        Person person = new Person("Yufei", "Wang", 20);
+
+        Console.WriteLine($"First Name: {person.FirstName}");
+        Console.WriteLine($"Last Name: {person.LastName}");
+        Console.WriteLine($"Age: {person.Age}");
+        Console.WriteLine($"Full Name: {person.FullName()}");
+        Console.WriteLine($"Is Adult: {person.IsAdult()}");
+
     }
     catch (FormatException)
     {
