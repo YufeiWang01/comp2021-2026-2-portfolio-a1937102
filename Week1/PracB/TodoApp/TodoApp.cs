@@ -35,10 +35,7 @@ class TodoApp
 
                 case "show":
 
-                    for (int i = 0; i < tasks.Count; i++)
-                    {
-                        Console.WriteLine($"{i}: {tasks[i]}");
-                    }
+                    ShowTasks(tasks);
                     break;
 
                 case "remove":
@@ -116,5 +113,16 @@ class TodoApp
                 
             }
         }
+
     }
+
+    static void ShowTasks(List<string> tasks)
+        {
+            for (int i = 0; i < tasks.Count; i++)
+            {
+                Console.WriteLine($"{i}: {tasks[i]}");
+            }
+        }
+
+
 }
