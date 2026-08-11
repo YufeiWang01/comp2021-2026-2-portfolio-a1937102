@@ -1,26 +1,55 @@
  public class Payroll
     {
         private double hours;
+
+        public double Hours
+        {
+            get { return hours; }
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Hours cannot be negative.");
+                }
+                hours = value;
+            }
+        }
+
         private decimal rate;
+        public decimal Rate
+        {
+            get { return rate; }
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Rate cannot be negative.");
+                }
+                rate = value;
+            }
+        }
+
         private decimal taxRate;
+
+        public decimal TaxRate
+        {
+            get { return taxRate; }
+            set
+            {
+                if (value < 0 || value > 1)
+                {
+                    throw new ArgumentException("Tax rate must be between 0 and 1.");
+                }
+                taxRate = value;
+            }
+        }
 
         public Payroll(double hours, decimal rate, decimal taxRate)
         {
-            if (hours < 0)
-            {
-                throw new ArgumentException("Hours cannot be negative.");
-            }
-            if (rate < 0)
-            {
-                throw new ArgumentException("Rate cannot be negative.");
-            }
-            if (taxRate < 0 || taxRate > 1)
-            {
-                throw new ArgumentException("Tax rate must be between 0 and 1.");
-            }
-            this.hours = hours;
-            this.rate = rate;
-            this.taxRate = taxRate;
+            
+            Hours = hours;
+            Rate = rate;
+            TaxRate = taxRate;
         }
 
         public decimal CalculateNetpay()
@@ -33,10 +62,7 @@
         }
         public void ChangeTaxRate(decimal newTaxRate)
         {
-            if (newTaxRate < 0 || newTaxRate > 1)
-            {
-                throw new ArgumentException("Tax rate must be between 0 and 1.");
-            }
-            taxRate = newTaxRate;
+            
+            TgitaxRate = newTaxRate;
         }
     }
