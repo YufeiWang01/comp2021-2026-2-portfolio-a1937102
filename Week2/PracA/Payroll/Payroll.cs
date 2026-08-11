@@ -63,6 +63,6 @@
         public void ChangeTaxRate(decimal newTaxRate)
         {
             
-            TgitaxRate = newTaxRate;
+            TaxRate = newTaxRate;
         }
     }
