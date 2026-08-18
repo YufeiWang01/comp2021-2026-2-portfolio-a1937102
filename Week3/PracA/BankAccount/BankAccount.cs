@@ -4,9 +4,9 @@ public class BankAccount
     public string Owner { get; set; }
     public decimal Balance { get; set;}
 
-    public BankAccount(string Owner, decimal balance)
+    public BankAccount(string owner, decimal balance)
     {
-        Owner = Owner;
+        Owner = owner;
         Balance = balance;
     }
 
